@@ -1,0 +1,72 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int num1,num2,num3;
+    cout<<"Enter the three Number :";
+    cin>>num1>>num2>>num3;
+    if(num1>num2)
+    {
+        if(num1>num3)
+        {
+            cout<<num1<<endl;
+            if(num1%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd";
+            }
+        }
+        else
+        {
+            cout<<num3;
+             if(num3%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd";
+            }
+        }
+    }
+    else if(num1<num2)
+    {
+        if(num2>num3)
+        {
+            cout<<num2<<endl;
+             if(num2%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd";
+                 if(num2%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd";
+            }
+            }
+        }
+        else
+        {
+            cout<<num3;
+             if(num3%2==0)
+            {
+                cout<<"even"<<endl;
+            }
+            else
+            {
+                cout<<"odd";
+            }
+        }
+    }
+    getch();
+}
